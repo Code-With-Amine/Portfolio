@@ -1,0 +1,15 @@
+.bg-sec{
+    background-color: rgb(232, 233, 241);
+}
+.faking-img{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(24, 23, 23, 0.663);
+}
+section{
+    margin-top: 12px;
+    padding: 22px;
+}
+.bg-pro{
+    background-color: rgb(198, 191, 191);
+}
