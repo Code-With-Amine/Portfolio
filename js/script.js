@@ -1,15 +1,13 @@
 
 document.addEventListener('DOMContentLoaded', () => {
-    const seeMore = document.getElementById('seeMore');
+    const seeMore = document.getElementById('seeMoreSkills');
     const showMoreSkills = document.getElementById('otherSkills');
 
     seeMore.addEventListener('click', () => {
-        if (showMoreSkills.style.display === 'none') {
+        if (seeMore.checked) {
             showMoreSkills.style.display = 'flex';
-            seeMore.textContent = 'See less';
         } else {
             showMoreSkills.style.display = 'none';
-            seeMore.textContent = 'See more...';
         }
     });
 
@@ -17,12 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const showProjects = document.getElementById('showProjects');
 
     seeMoreProjects.addEventListener('click', () => {
-        if (showProjects.style.display === 'none') {
+        if (seeMoreProjects.checked) {
             showProjects.style.display = 'flex';
-            seeMoreProjects.textContent = 'See less';
         } else {
             showProjects.style.display = 'none';
-            seeMoreProjects.textContent = 'See more...';
         }
     });
 

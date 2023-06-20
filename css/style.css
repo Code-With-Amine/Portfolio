@@ -50,7 +50,7 @@ section{
     overflow: hidden;
   }
   
-  .expand-button {
+  .expand-button , .projectsExpandBtn{
     display: block;
     appearance: none;
     color: rgba(0, 36, 142, 0.594);
@@ -64,4 +64,12 @@ section{
   .expand-button:checked::before{
     content: "Read Less";
 
+  }
+
+  .projectsExpandBtn::before{
+    content: "See More...";
+  }
+
+  .projectsExpandBtn:checked:before{
+    content: "See Less...";
   }
